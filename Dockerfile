@@ -9,7 +9,7 @@ COPY  main.js package.json /app/
 
 #RUN ["npm", "--proxy http://www-proxy.us.oracle.com:80 install"]
 
-install packagename
+#install packagename
 #CMD ["npm", "start"]
 
 #EXPOSE 8000
