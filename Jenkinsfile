@@ -6,7 +6,7 @@ node {
     }
 
     stage('Build image') {
-        app = docker.build("amitkr2308/nodejsapp")
+        app = docker.build("aalock/nodedev")
     }
 
     stage('Test image') {
