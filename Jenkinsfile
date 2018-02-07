@@ -5,9 +5,9 @@ node {
         checkout scm
     }
 
-    #stage('Build image') {
-   #     app = docker.build("amitkr2308/nodejsapp")
-   # }
+    stage('Build image') {
+        app = docker.build("amitkr2308/nodejsapp")
+    }
 
     stage('Test image') {
         app.inside {
