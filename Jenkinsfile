@@ -6,7 +6,7 @@ node {
     }
 
     stage('Build image') {
-        app = docker.build("aalock/nodedev")
+        app = docker.build("aalock/nodedev1")
     }
 
     stage('Test image') {
